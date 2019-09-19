@@ -745,7 +745,7 @@ p.nominalBounds = new cjs.Rectangle(-61.5,-18.6,123,37.3);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(55).to({_off:false},0).to({alpha:1},8).wait(55).to({x:-81},14,cjs.Ease.quintIn).to({_off:true},1).wait(55));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(71).to({_off:false},0).to({alpha:1},8).wait(39).to({x:-81},14,cjs.Ease.quintIn).to({_off:true},1).wait(55));
 
 	// HEAD3
 	this.instance_7 = new lib.HEAD3();
@@ -774,7 +774,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_Child_300x250_atlas_.png?1568830928775", id:"CO_Child_300x250_atlas_"}
+		{src:"images/CO_Child_300x250_atlas_.png?1568920489047", id:"CO_Child_300x250_atlas_"}
 	],
 	preloads: []
 };
