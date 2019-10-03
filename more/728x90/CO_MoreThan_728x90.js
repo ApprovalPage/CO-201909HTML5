@@ -453,10 +453,10 @@ p.nominalBounds = new cjs.Rectangle(181.6,29.9,99.29999999999998,89.5);
 p.nominalBounds = new cjs.Rectangle(181.6,29.9,99.29999999999998,104.6);
 
 
-(lib.cohwhiteeps = function(mode,startPosition,loop) {
+(lib.cohwhiteRGBai = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// co-h-white.eps
+	// co-h-white-RGB.ai
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgyA1QgXgVAAggQAAgeAWgWQAVgVAeAAQAfAAAWAWQAVAWgBAdQAAAfgVAVQgVAWgfAAQgdAAgVgVgAgvguQgTATAAAbQAAAcAUAUQATATAbAAQAcAAATgUQAUgTAAgcQAAgagTgUQgTgUgdAAQgbAAgUAUgAASAuIgEgNIgCgOQgCgJgFgDQgEgCgJgBIgGAAIAAAqIgQAAIAAhcIAeAAQAPAAAGACQAOAGAAAQQAAARgTAFQAGACADADQADAEACAJQACATAFAJgAgOgIIAOAAQATAAAAgNQAAgHgHgEQgDgBgMAAIgLAAg");
 	this.shape.setTransform(827.9006,45.875);
@@ -627,6 +627,20 @@ p.nominalBounds = new cjs.Rectangle(-61.5,-18.6,123,37.3);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.DrChildALL, new cjs.Rectangle(22.3,-32.4,74.9,78.9), null);
+
+
+(lib.cohwhiteRGB = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_2
+	this.instance = new lib.cohwhiteRGBai("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(8.05,0,0.83,0.83,0,0,0,417.6,61.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-338.6,-51.2,693.3,102.6);
 
 
 (lib.BUTTON = function(mode,startPosition,loop) {
@@ -933,9 +947,9 @@ p.nominalBounds = new cjs.Rectangle(-61.5,-18.6,123,37.3);
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(155).to({regX:0.4,scaleX:0.2725,x:-100.85,y:73.1},29,cjs.Ease.quintIn).to({_off:true},5).wait(25));
 
 	// LOGO
-	this.instance_2 = new lib.cohwhiteeps("synched",0);
+	this.instance_2 = new lib.cohwhiteRGB("synched",0);
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(547.6,44.1,0.3,0.3,0,0,0,267.2,126);
+	this.instance_2.setTransform(687.15,64.8,0.3,0.3,0,0,0,267.2,126);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -1200,7 +1214,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_MoreThan_728x90_atlas_.png?1570065306459", id:"CO_MoreThan_728x90_atlas_"}
+		{src:"images/CO_MoreThan_728x90_atlas_.png?1570135956843", id:"CO_MoreThan_728x90_atlas_"}
 	],
 	preloads: []
 };
