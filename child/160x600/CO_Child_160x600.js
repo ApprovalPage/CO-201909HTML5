@@ -684,8 +684,8 @@ p.nominalBounds = new cjs.Rectangle(-74.7,-35.1,149.5,70.4);
 
 	// border
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EgXWguyMAutAAAMAAABdlMgutAAAg");
-	this.shape.setTransform(150,300);
+	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EgMaguyIY1AAMAAABdlI41AAg");
+	this.shape.setTransform(80,300);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(166));
 
@@ -826,7 +826,7 @@ p.nominalBounds = new cjs.Rectangle(-74.7,-35.1,149.5,70.4);
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(166));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-225.7,299.5,526.2,301);
+p.nominalBounds = new cjs.Rectangle(-225.7,299.5,456.7,301);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -836,7 +836,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_Child_160x600_atlas_.png?1570217514251", id:"CO_Child_160x600_atlas_"}
+		{src:"images/CO_Child_160x600_atlas_.png?1570228478845", id:"CO_Child_160x600_atlas_"}
 	],
 	preloads: []
 };
